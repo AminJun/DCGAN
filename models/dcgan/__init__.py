@@ -4,8 +4,8 @@ from torch.utils import model_zoo
 from models.dcgan.generator import Generator
 from models.dcgan.discriminator import Discriminator
 
-_G_PATH = 'https://github.com/AminJun/DCGAN/releases/download/DCGAN1/netG_epoch_199.pth'
-_D_PATH = 'https://github.com/AminJun/DCGAN/releases/download/DCGAN1/netD_epoch_199.pth'
+_G_PATH = 'https://github.com/AminJun/DCGAN/releases/download/DCGAN3/netG_epoch_99.pth'
+_D_PATH = 'https://github.com/AminJun/DCGAN/releases/download/DCGAN3/netD_epoch_99.pth'
 
 
 def weights_init(model: nn.Module) -> nn.Module:
